@@ -1,4 +1,4 @@
-Getting and Cleaning Data Course Project
+# Getting and Cleaning Data Course Project
 
 File with R code "run_analysis.R" perform 5 following steps:
 
