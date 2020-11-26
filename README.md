@@ -1,10 +1,13 @@
 Getting and Cleaning Data Course Project
 
-* File with R code "run_analysis.R" perform 5 following steps (in accordance assigned task of course work):
+File with R code "run_analysis.R" perform 5 following steps (in accordance assigned task of course work):
+* Merging the training and the test sets to create one data set.
+* Reading training data.Reading testing data.
+* Reading feature information.
+* Reading activity information.
+* Assigning names to the columns.
+* Merging all data in one set.
 
-**Merging the training and the test sets to create one data set.
-Reading training data.Reading testing data.
-Reading feature information.Reading activity information.Assigning names to the columns.Merging all data in one set.
 Extracting only the measurements on the mean and standard deviation for each measurement
 
  Extracting only the mean and standard deviation for the measures.
