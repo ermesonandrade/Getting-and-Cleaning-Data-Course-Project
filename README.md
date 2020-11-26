@@ -11,13 +11,8 @@ run_analysis.R does the following:
 About variables
 
 `x_train`, `y_train`, `x_test`, `y_test`, `subject_train`, `subject_test`, `features`, and `activityLabels` contain the data from the downloaded files.
-
 `merge_train` and  `merge_test` contain merged data from the training and test data, respectively.
-
 `colNames` contains column names.
-
 `onlyMeanAndStd` contains only the data concerning the mean and standard deviation.
-
 `activityWithNames` contains the data set with the activity names.
-
 `tidy2` contains the new data with the average of each variable for each activity and each subject.
