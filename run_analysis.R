@@ -7,12 +7,12 @@ library(dplyr)
 # Merges the training and the test sets to create one data set.
 #******************************************************************
 
-# Reading training data:
+# Reading training data.
 x_train <- read.table("https://www.dropbox.com/s/o2r22wn2boxsi57/X_train.txt?dl=1")
 y_train <- read.table("https://www.dropbox.com/s/7525xmeflrinwlt/y_train.txt?dl=1")
 subject_train <- read.table("https://www.dropbox.com/s/8sze3wg29dzjjrf/subject_train.txt?dl=1")
 
-# Reading testing data:
+# Reading testing data.
 x_test <- read.table("https://www.dropbox.com/s/udtsyaie5gwvjwb/X_test.txt?dl=1")
 y_test <- read.table("https://www.dropbox.com/s/ngj1wj5ek6e2qfw/y_test.txt?dl=1")
 subject_test <- read.table("https://www.dropbox.com/s/ru7p9dfchvn1ap4/subject_test.txt?dl=1")
@@ -79,4 +79,4 @@ tidy2<-activityWithNames%>%
   group_by(activityId, subjectId) %>%
   summarise_all(funs(mean))
 
-
+write.table(tidy2, file = "tidy2.txt",row.name=FALSE)
