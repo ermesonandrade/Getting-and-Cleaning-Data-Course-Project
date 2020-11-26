@@ -75,8 +75,11 @@ names(activityWithNames)<-gsub("BodyBody", "Body", names(activityWithNames))
 # the average of each variable for each activity and each subject.
 #******************************************************************
 
+#Creating a new data set.
+
 tidy2<-activityWithNames%>%
   group_by(activityId, subjectId) %>%
   summarise_all(funs(mean))
 
+#Writing second tidy data set in txt file
 write.table(tidy2, file = "tidy2.txt",row.name=FALSE)
