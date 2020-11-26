@@ -1,6 +1,6 @@
 # Getting and Cleaning Data Course Project
 
-## The "run_analysis.R" perform the following steps:
+## The "run_analysis.R" performs the following steps:
 
 Merging the training and the test sets to create one data set.
 * Reading training data.Reading testing data.
