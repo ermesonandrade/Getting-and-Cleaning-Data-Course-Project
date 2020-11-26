@@ -1,6 +1,6 @@
 # Getting and Cleaning Data Course Project
 
-File with R code "run_analysis.R" perform 5 following steps:
+The "run_analysis.R" perform the following steps:
 
 Merging the training and the test sets to create one data set.
 * Reading training data.Reading testing data.
